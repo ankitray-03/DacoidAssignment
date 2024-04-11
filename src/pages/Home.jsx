@@ -22,7 +22,7 @@ function Home({ setHome, homeVal }) {
             </p>
 
             <Link to="/secondPage">
-              <div className="circle-container ml-[80%] mt-[45%]">
+              <div className="circle-container ml-[80%] mt-[10%]">
                 <div className="circle"></div>
                 <div className="outer-border"></div>
                 <MdArrowForwardIos className="arrow-icon mt-[-38px] ml-4" />

@@ -22,7 +22,7 @@ function SecondHome() {
             </p>
 
             <Link to="/">
-              <div className="circle-container ml-[80%] mt-[70%]">
+              <div className="circle-container ml-[80%] mt-[10%]">
                 <div className="circle"></div>
 
                 <div className="outer-border"></div>
