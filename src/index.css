@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle-container {
+  height: 50px;
+  width: 50px; /* Adjust as needed */
+  position: relative;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #89a1ff; /* Circle color */
+  position: relative;
+}
+
+.outer-border {
+  position: absolute;
+  top: -5px; /* Adjust to control the gap size */
+  left: -5px; /* Adjust to control the gap size */
+  width: calc(100% + 10px); /* Adjust to control the gap size */
+  height: calc(100% + 10px); /* Adjust to control the gap size */
+  border: 3px solid #89a1ff; /* Border color */
+  border-radius: 50%;
+  --mask: conic-gradient(#89a1ff var(--p, 30%), transparent 0%) border-box;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
+.arrow-icon {
+  font-size: 24px; /* Adjust icon size as needed */
+  color: white; /* Icon color */
+  position: absolute;
+}
